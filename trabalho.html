@@ -1,0 +1,108 @@
+<head>
+        <meta charset="UTF-8">
+        <script src="index.js"></script>
+        <link rel="stylesheet" type="text/css" href="estilos.css"></head>
+            </head>
+            <body>
+                <table border="1px" bordercolor="blue" cellpadding="5px" cellspacing="0" ID="tabela">
+                  
+                    <tr id="conteudo">
+                       <th> DISCIPLINA </th>
+                       <th> 1º BIMESTRE </th>
+                       <th> 2º BIMESTRE </th>
+                       <th> 3º BIMESTRE </th>
+                       <th> 4º BIMESTRE </th>
+                       <th> MÉDIA ANUAL </th>
+                       <th> EXAME </th>
+                       <th> NOTA EXAME </th>
+                       <th> RESULTADO FINAL </th>
+                    </tr>
+             
+            <tr>
+                 <td id="disciplina">Português</td>
+                 <td><input onblur="mudarcor(this)" class="" value="0" type="number" min="0" max="10.0" name="b1p" id="b1p"></td>
+                 <td><input onblur="mudarcor(this)" class="" value="0" type="number" min="0" max="10.0" name="b2p" id="b2p"></td>
+                 <td><input onblur="mudarcor(this)" class="" value="0" type="number" min="0" max="10.0" name="b3p" id="b3p"></td>
+                 <td><input onblur="mudarcor(this)" class="" value="0" type="number" min="0" max="10.0" name="b4p" id="b4p"></td>
+                 <td><label name="mediaAnual" id="mediaAnual1" class=""></label></td>
+                 <td><label name="exame" id="exame1"></label></td>
+                 <td><label for="notaExame1"></label>
+                 <input id="notaExame1" onblur="mudarcor(this)" class="" value="0" type="number" min="0" max="10.0" type="number"/> 
+                </td>
+                <td><label name="resultado" id="fim1"></label></td>
+            </tr>   
+               
+
+              
+             <tr>
+                 <td id="disciplina"> Matemática </td>
+                 <td><input onblur="mudarcor(this)" class="" value="0" type="number" min="0" max="10.0" name="b1m" id="b1m"></td>
+                 <td><input onblur="mudarcor(this)" class="" value="0" type="number" min="0" max="10.0" name="b2m" id="b2m"></td>
+                 <td><input onblur="mudarcor(this)" class="" value="0" type="number" min="0" max="10.0" name="b3p" id="b3m"></td>
+                 <td><input onblur="mudarcor(this)" class="" value="0" type="number" min="0" max="10.0" name="b4p" id="b4m"></td>
+                 <td><label name="mediaAnual" id="mediaAnual2" class=""></label></td>
+                 <td><label name="exame" id="exame2"></label></td>
+                 <td><label for="notaExame2"></label>
+                 <input id="notaExame2" onblur="mudarcor(this)" class="" value="0" type="number" min="0" max="10.0" type="number"/> 
+                 </td>
+                 <td><label name="resultado" id="fim2"></label></td>
+            </tr>
+              
+                
+             <tr>
+                <td id="disciplina">História  </td>
+                <td><input onblur="mudarcor(this)" class="" value="0" type="number" min="0" max="10.0" name="b1h" id="b1h"></td>
+                <td><input onblur="mudarcor(this)" class="" value="0" type="number" min="0" max="10.0" name="b2h" id="b2h"></td>
+                <td><input onblur="mudarcor(this)" class="" value="0" type="number" min="0" max="10.0" name="b3h" id="b3h"></td>
+                <td><input onblur="mudarcor(this)" class="" value="0" type="number" min="0" max="10.0" name="b4h" id="b4h"></td>
+                <td><label name="mediaAnual" id="mediaAnual3" class=""></label></td>
+                <td><label name="exame" id="exame3"></label></td>
+                <td><label for="notaExame3"></label>
+                 <input id="notaExame3" onblur="mudarcor(this)" class="" value="0" type="number" min="0" max="10.0" type="number"/> 
+                </td>
+                <td><label name="resultado" id="fim3"></label></td>
+          </tr>    
+    
+                    <tr>
+                        <td id="disciplina">Geografia</td> 
+                        <td><input onblur="mudarcor(this)" class="" value="0" type="number" min="0" max="10.0" name="b1g" id="b1g"></td>
+                        <td><input onblur="mudarcor(this)" class="" value="0" type="number" min="0" max="10.0" name="b2g" id="b2g"></td>
+                        <td><input onblur="mudarcor(this)" class="" value="0" type="number" min="0" max="10.0" name="b3g" id="b3g"></td>
+                        <td><input onblur="mudarcor(this)" class="" value="0" type="number" min="0" max="10.0" name="b4g" id="b4g"></td>
+                        <td><label name="mediaAnual" id="mediaAnual4" class=""></label></td>
+                        <td><label name="exame" id="exame4"></label></td>
+                        <td><label for="notaExame4"></label>
+                        <input id="notaExame4" onblur="mudarcor(this)" class="" value="0" type="number" min="0" max="10.0" type="number"/> 
+                        </td>
+                        <td><label name="resultado" id="fim4"></label></td>
+    
+                    </tr>
+               
+             
+                    <tr> 
+                        <td id="disciplina">Inglês  </td>
+                        <td><input onblur="mudarcor(this)" class="" value="0" type="number" min="0" max="10.0" name="b1i" id="b1i"></td>
+                        <td><input onblur="mudarcor(this)" class="" value="0" type="number" min="0" max="10.0" name="b2i" id="b2i"></td>
+                        <td><input onblur="mudarcor(this)" class="" value="0" type="number" min="0" max="10.0" name="b3i" id="b3i"></td>
+                        <td><input onblur="mudarcor(this)" class="" value="0" type="number" min="0" max="10.0" name="b4i" id="b4i"></td>
+                        <td><label name="mediaAnual" id="mediaAnual5" class=""></label></td>
+                        <td><label name="exame" id="exame5"></label></td>
+                        <td><label for="notaExame5"></label>
+                        <input id="notaExame5" onblur="mudarcor(this)" class="" value="0" type="number" min="0" max="10.0" type="number"/> 
+                        </td>
+                        <td><label name="resultado" id="fim5"></label></td>
+                    </tr>
+                </table>
+
+                <tfoot>
+                    <div id="botao">
+                    <td>
+                      <div>
+                        <button><span><input type="button" value="Calcular Média" id="calcularMedia" onclick="calculoMedia(this)"></span></button>
+                        <button><span><input type="button" value="Finalizar" id="finalizar" onclick="finaliza(this)"></span></button>
+                </div>
+                    </td>
+                </div>
+                </tfoot>
+            </body>
+</html>
